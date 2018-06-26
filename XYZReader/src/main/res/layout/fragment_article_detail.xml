@@ -8,13 +8,14 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar_article"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/AppBarLayoutColor"
         >
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_container_article"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:expandedTitleMarginStart="1dp"
@@ -25,7 +26,8 @@
             <ImageView
                 android:id="@+id/photo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax"/>
 
             <View
                 android:layout_width="match_parent"
