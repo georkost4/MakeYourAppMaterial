@@ -13,3 +13,5 @@ This project aim's to take a working application and working on it's UI and appl
 
 (**work in progress**)
 
+<img src = "Images/xyz_after_material.png" width="280">
+
