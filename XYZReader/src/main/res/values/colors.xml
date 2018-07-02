@@ -21,7 +21,5 @@
     <color name="colorPrimary">#994848</color>
     <color name="colorPrimaryDark">#546E7A</color>
     <color name="colorAccent">#03a9f4</color>
-
-
     <color name="AppBarLayoutColor">@color/colorPrimary</color>
 </resources>

@@ -8,6 +8,7 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar_article"
         android:layout_width="match_parent"
+        android:elevation="4dp"
         android:layout_height="wrap_content"
         android:background="@color/AppBarLayoutColor"
         >
